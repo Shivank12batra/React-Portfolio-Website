@@ -36,7 +36,7 @@ const SocialLinks = () => {
   return (
     <div className='hidden md:flex flex-col top-[35%] left-0 fixed'>
         <ul>
-            {links.map(({id, child, href, style}) => {
+            {links.map(({id, child, href}) => {
                  return <li  key={id} className='flex justify-between items-center w-40 h-14 px-4 -ml-24 hover:-m-2 hover:rounded-md duration-300 bg-gray-500'>
                     <a href={href} className='flex justify-between items-center w-full text-white'>
                         {child}
