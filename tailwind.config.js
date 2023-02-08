@@ -12,6 +12,10 @@ module.exports = {
       xl: "1280px",
     },
     extend: {
+      boxShadow: {
+        'shadow-md': '0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1)',
+        'shadow-gray-600': '0 4px 6px rgba(76, 78, 84, 0.1), 0 1px 3px rgba(76, 78, 84, 0.1)',
+      },
       inset: {
         '35': '35%',
       },
