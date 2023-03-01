@@ -1,7 +1,7 @@
 import React from 'react'
 import twitterBot from '../assets/united_twitter_bot.png'
 import pyPi from '../assets/pypi_package.jpg'
-import palindrome from '../assets/palindrome_birthday.png'
+import linkedin from '../assets/linkedin_bio_generator.jpg'
 
 
 const Portfolio = () => {
@@ -24,11 +24,11 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      name: 'Birthday Palindrome',
-      src: palindrome,
-      description: 'Find out whether your birthday is a palindrome or not! Teck Stack Used: HTML, CSS and vanilla JS.',
-      live_href: 'https://palindrome-birthday-neog-mark-13.netlify.app/',
-      code_href: 'https://github.com/Shivank12batra/palindrome-birthday'
+      name: 'LinkedIn Bio Generator',
+      src: linkedin,
+      description: 'Impress recruiters and colleagues with a professional and engaging LinkedIn profile bio by using this linkedIn bio generator. Teck Stack Used: React, Node JS, OpenAI API',
+      live_href: 'https://https-linkedin-bio-generator-api.onrender.com/',
+      code_href: 'https://github.com/Shivank12batra/Linkedin-Bio-Generator'
     }
   ]
   return (
