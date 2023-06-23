@@ -17,6 +17,14 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      name: 'Otaku Reads',
+      src: whatsappBot,
+      description: 'Otaku Reads is the anime bookstore where you can buy new as well as old age, classical mangas. Features: cart, wishlist and address management, various filters and sort options on books and payment itegration. Tech stack used: React JS, useContext + useReducer(State Management), Vanilla CSS',
+      live_href: 'https://sggscc-attendance-bot.onrender.com/',
+      code_href: 'https://otaku-reads.netlify.app/',
+    },
+    {
+      id: 3,
       name: 'Data Viz Twitter Bot',
       src: twitterBot,
       description: 'A twitter bot which posts data vizzes from Manchester United latest game to give in depth analysis and insights of the overall team play dynamics. Tech stack used: Selenium, Pandas, Matplotlib, Twitter API (now migrating to web scraping)',
@@ -24,7 +32,7 @@ const Portfolio = () => {
       code_href: 'https://github.com/Shivank12batra/United-Matchday-Twitter-Bot'
     },
     {
-      id: 2,
+      id: 4,
       name: 'understatscraper',
       src: pyPi,
       description: 'A python pyPi package to scrape shots data from understat.com for either a single game or for a whole season for top five European leagues. Teck stack used: selenium + bs4 for data scraping, pandas for data wrangling.',
@@ -32,7 +40,7 @@ const Portfolio = () => {
       code_href: 'https://github.com/Shivank12batra/understatscraper'
     },
     {
-      id: 3,
+      id: 5,
       name: 'LinkedIn Bio Generator',
       src: linkedin,
       description: 'Impress recruiters and colleagues with a professional and engaging LinkedIn profile bio by using this linkedIn bio generator. Teck Stack Used: React, Node JS, GPT-3 API',
