@@ -1,4 +1,5 @@
 import React from 'react'
+import naruto from '../assets/naruto.jpg'
 import twitterBot from '../assets/united_twitter_bot.png'
 import whatsappBot from '../assets/whatsapp_bot.jpg'
 import pyPi from '../assets/pypi_package.jpg'
@@ -18,7 +19,7 @@ const Portfolio = () => {
     {
       id: 2,
       name: 'Otaku Reads',
-      src: whatsappBot,
+      src: naruto,
       description: 'Otaku Reads is the anime bookstore where you can buy new as well as old age, classical mangas. Features: cart, wishlist and address management, various filters and sort options on books and payment itegration. Tech stack used: React JS, useContext + useReducer(State Management), Vanilla CSS',
       live_href: 'https://sggscc-attendance-bot.onrender.com/',
       code_href: 'https://otaku-reads.netlify.app/',
