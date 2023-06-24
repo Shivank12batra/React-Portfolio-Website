@@ -21,8 +21,8 @@ const Portfolio = () => {
       name: 'Otaku Reads',
       src: naruto,
       description: 'Otaku Reads is the anime bookstore where you can buy new as well as old age, classical mangas. Features: cart, wishlist and address management, various filters and sort options on books and payment itegration. Tech stack used: React JS, useContext + useReducer(State Management), Vanilla CSS',
-      live_href: 'https://sggscc-attendance-bot.onrender.com/',
-      code_href: 'https://otaku-reads.netlify.app/',
+      live_href: 'https://otaku-reads.netlify.app/',
+      code_href: 'https://github.com/Shivank12batra/otaku-reads',
     },
     {
       id: 3,
