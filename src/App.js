@@ -4,7 +4,8 @@ import Home from './components/Home';
 import SocialLinks from './components/SocialLinks';
 import About from './components/About';
 import Skills from './components/Skills';
-import Projects from './components/Projects';
+import LargeProjects from './components/LargeProjects';
+import SmallProjects from './components/SmallProjects';
 import Blogs from './components/Blogs';
 
 function App() { 
@@ -15,7 +16,8 @@ function App() {
       <SocialLinks />
       <About />
       <Skills/>
-      <Projects />
+      <LargeProjects />
+      <SmallProjects />
       <Blogs/>
     </div>
   )
