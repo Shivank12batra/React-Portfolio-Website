@@ -13,8 +13,8 @@ const LargeProjects = () => {
       src: pl_analytics,
       description: 'An in-depth analytics website for English Premier League fans showcasing detailed statistics and interactive data visualizations for the top six teams from the 2022-2023 season.',
       tech_stack: 'React, Tailwind CSS, React Query, D3.js, Firebase',
-      live_href: '',
-      code_href: '',
+      live_href: 'https://pl-analytics.netlify.app/',
+      code_href: 'https://github.com/Shivank12batra/PL-Data-Viz-Website',
     },
     {
       id: 2,

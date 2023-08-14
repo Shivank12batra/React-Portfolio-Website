@@ -30,7 +30,7 @@ const Blogs = () => {
                     blogs.map(({id, src, title, href}) => {
                         return (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                                <h2 className='text-3xl text-center m-8 font-bold'>{title}</h2>
+                                <h2 className='text-2xl text-center m-8'>{title}</h2>
                                 <img src={src} alt='' className='w-96 h-48 px-4 rounded-md duration-200 hover:scale-105'/>
                                 <div className='flex items-center justify-center'>
                                     <a href={href} target='_blank' rel='noreferrer'>
